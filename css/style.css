@@ -91,6 +91,8 @@ body {
 	background-repeat: no-repeat, no-repeat;
 	background-size: 18%, cover;
 	background-position: center, center;
+	background-color: rgba(0, 0, 0, 0.950);
+	background-blend-mode: hard-light;
 }
 
 .navbar-wrapper .navbar .container {
@@ -205,11 +207,12 @@ body {
 	justify-content: center;
 	flex-flow: column;
 	text-align: center;
-	background: url('../images/lake.jpeg') no-repeat;
-	background-position: bottom right;
+	height: 350px;
+	background: url('../images/stars.jpeg') no-repeat;
+	background-position:  left;
 	background-size: cover;
-	background-color: rgba(255, 255, 255, 0.600);
-	background-blend-mode: overlay;
+	background-color: rgba(254, 254, 254, 0.890);
+	background-blend-mode: saturation;
 }
 
 .flex-container p {
@@ -249,6 +252,8 @@ img.img-responsive {
 .myskills {
 	background: url(../images/glitter.jpeg) no-repeat;
 	background-position: center;
+	background-color: rgba(255, 255, 255, 0.600);
+	background-blend-mode: saturation;
 
 }
 
